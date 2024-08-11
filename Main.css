@@ -1,0 +1,126 @@
+body{
+    background-color: white;
+}
+h1{
+    padding-left: 500px;
+    color:white;
+    font-family:Great Vibes Regular;
+    size:20dvh;
+    background-color: pink;
+    border: 20px, white;
+    font-size: 50px;
+    display:flex;
+    
+}
+
+.flex-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+
+}
+
+button{
+    color:pink;
+    background: black;
+
+}
+.pictext{
+    flex:2;
+    background-color: pink;
+}
+.column + .column{
+    margin:10px;
+}
+
+.column img{
+    /* object-fit: cover; */
+    object-position: center;
+}
+
+.column{
+    flex:1;
+    background-color:pink;
+    padding:20px;
+    border:1px solid lightcoral;
+    box-shadow:0px 2px 4px darkslategray;
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+
+}
+a{
+    color:white;
+    font-family: Great Vibes Regular;
+    font-size: larger;
+    line-height: 60px;
+    
+}
+
+h4{
+    background-color: pink;
+    border: 1px solid lightcoral;
+    padding:20px;
+    text-align: center;
+}
+h3{
+    background-color: pink;
+    
+    padding:20px;
+
+
+
+}
+
+.footimage{
+    float:left
+}
+
+h2{
+    background-color: pink;
+    border: 1px solid lightcoral;
+    padding:20px;
+}
+
+ul{
+    float:left;
+    background-color: pink;
+    height:300px;
+    border-radius: 10px;
+    width:100px
+}
+h3{
+    color:black;
+    
+}
+.image2{
+    margin-top: 4100px;
+    width:300px;
+    height:500px;
+    object-position: center;
+
+}
+footer{
+background-color: black;
+color:white;
+margin-top: auto;
+height:300px;
+margin-left: 0;
+margin-bottom: 0;
+margin-right: 0;
+text-align: right;
+}
+
+
+
+
+.content{
+    padding:20px;
+    border-radius: 10px;
+    background-color: pink;
+    margin: 20px;
+}
+icon{
+    font-size:xx-large;
+}
